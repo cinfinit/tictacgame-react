@@ -1,0 +1,143 @@
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes slideInFromUp {
+  0% {
+    transform: translateY(-10%);
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.heading {
+  animation: 1s ease-out 0s 1 slideInFromUp;
+}
+body {
+  background: #485b6e;
+}
+button {
+  box-sizing: border-box;
+  appearance: none;
+  background-color: transparent;
+
+  color: "white";
+  cursor: pointer;
+  align-self: center;
+
+  font-weight: 400;
+
+  vertical-align: top;
+
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  /* font-weight: 700; */
+}
+
+.button1 {
+  background-color: transparent;
+  border: 2px solid white;
+  border-top-width: 0;
+  border-bottom-width: 2px;
+  border-left-width: 0;
+  border-right-width: 2px;
+}
+
+.button2 {
+  background-color: transparent;
+  border: 2px solid white;
+  border-top-width: 0;
+  border-bottom-width: 2px;
+  border-left-width: 2px;
+  border-right-width: 2px;
+}
+
+.button3 {
+  background-color: transparent;
+  border: 2px solid white;
+  border-top-width: 0;
+  border-bottom-width: 2px;
+  border-left-width: 2px;
+  border-right-width: 0;
+}
+
+.button4 {
+  background-color: transparent;
+  border: 2px solid white;
+  border-top-width: 2px;
+  border-bottom-width: 2px;
+  border-left-width: 0;
+  border-right-width: 2px;
+}
+
+.button5 {
+  background-color: transparent;
+  border: 2px solid white;
+  border-top-width: 2px;
+  border-bottom-width: 2px;
+  border-left-width: 2px;
+  border-right-width: 2px;
+}
+
+.button6 {
+  background-color: transparent;
+  border: 2px solid white;
+  border-top-width: 2px;
+  border-bottom-width: 2px;
+  border-left-width: 2px;
+  border-right-width: 0;
+}
+
+.button7 {
+  background-color: transparent;
+  border: 2px solid white;
+  border-top-width: 2px;
+  border-bottom-width: 0px;
+  border-left-width: 0;
+  border-right-width: 2px;
+}
+
+.button8 {
+  background-color: transparent;
+  border: 2px solid white;
+  border-top-width: 2px;
+  border-bottom-width: 0px;
+  border-left-width: 2px;
+  border-right-width: 2px;
+}
+
+.button9 {
+  background-color: transparent;
+  border: 2px solid white;
+  border-top-width: 2px;
+  border-bottom-width: 0px;
+  border-left-width: 2px;
+  border-right-width: 0;
+}
+
+.reset {
+  border: 2px solid white;
+  /* border: */
+  color: white;
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  transition: 0.3s;
+  /* animation: 2s all; */
+}
+.reset:hover {
+  opacity: 1;
+  background-color: aqua;
+  color: black;
+}
